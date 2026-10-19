@@ -1,4 +1,4 @@
-# Herk Edit Kit
+# Source Build
 
 Nate Herk's video-editing kit for **Codex and Claude Code**, built on HyperFrames.
 Formerly the HyperFrames Student Kit.
