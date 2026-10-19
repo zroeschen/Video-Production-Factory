@@ -20,7 +20,7 @@ it is not a media-free export. New student media and projects are gitignored.
 Three additional finished exports were explicitly supplied for public sharing:
 `examples/showcase/ai-edits-everything-reveal.mp4`,
 `ai-edits-everything-raw-vs-edited.mp4`, and `ais-live-ad.mp4`. On 2026-10-14 the
-two "AI edits everything" reels replaced the two curiosity reels at Nate's request;
+two "AI edits everything" reels replaced the two curiosity reels at the original author's request;
 they are re-encoded from the 60fps finals for size, and the AIS Live ad is an
 unchanged copy of its export. Preview JPGs were
 extracted from them. No source projects, private transcripts, or other recordings

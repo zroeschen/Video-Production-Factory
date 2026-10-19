@@ -1,4 +1,4 @@
-# Herk Edit Kit: workspace guide
+# Video Production Factory: workspace guide
 
 Turn a talking-head recording into an intentional edit using local HyperFrames
 rendering, transcript-driven cuts, and reusable motion graphics.
@@ -60,7 +60,7 @@ new personal footage. Never print secrets or copy private media into library exa
 
 Before choosing a transcription, asset-generation, or voiceover service, read
 `docs/TOOLS-AND-API-KEYS.md` and check the user's provider choice and local setup.
-ElevenLabs Scribe is Nate's default; honor requests for OpenAI Whisper, local
+ElevenLabs Scribe is Zander's default; honor requests for OpenAI Whisper, local
 Whisper, or another provider. Normalize verified word timestamps for the cutting
 tools. The included transcription script is ElevenLabs-only. Kie.ai is optional
 and needs a configured integration and credits. Reuse existing transcripts and
@@ -100,5 +100,5 @@ Automated browser checks must be headless, with Pointer Lock and cursor capture
 disabled; synthetic input must remain inside the virtual browser.
 
 For short-form edits, read `docs/SHORT-FORM.md` and `docs/EDITING-PLAYBOOK.md`
-(Nate's measured house style and lessons), and use the plan and footage
+(the measured house style and lessons), and use the plan and footage
 validators. Structural checks supplement rendered video and audio review.

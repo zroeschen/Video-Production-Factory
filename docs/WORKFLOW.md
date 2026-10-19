@@ -9,7 +9,7 @@ at `video-projects/my-video/assets/raw.mp4`. Preserve this original.
 node scripts/transcribe-elevenlabs.mjs video-projects/my-video/assets/raw.mp4
 ```
 
-This is Nate's default and uploads audio to ElevenLabs using your key and credits.
+This is Zander's default and uploads audio to ElevenLabs using your key and credits.
 You may choose OpenAI Whisper, local Whisper, or another provider instead; see
 [provider setup and transcript normalization](TOOLS-AND-API-KEYS.md).
 You can also supply an existing word-level

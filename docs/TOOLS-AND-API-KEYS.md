@@ -1,6 +1,6 @@
 # Tools, accounts, and API keys
 
-Nate uses **ElevenLabs Scribe for transcription** and **Kie.ai for generated video
+Zander uses **ElevenLabs Scribe for transcription** and **Kie.ai for generated video
 and image assets**. These are his preferred services, not requirements for every
 edit. Bring your own accounts and credits, and configure only what you use.
 
@@ -11,7 +11,7 @@ edit. Bring your own accounts and credits, and configure only what you use.
 | Codex or Claude Code | Following the agent-guided editing skills | Your own assistant access. External service API credits are separate. |
 | Node.js 22+, npm, Git, FFmpeg with ffprobe, and Chrome/Chromium | Local editing, preview, and rendering | Install on your computer. See [setup](SETUP.md). |
 | HyperFrames and GSAP | Video compositions and animation | Installed by `npm ci`. Rendering runs locally. Some templates use online fonts or CDNs; localize selected assets for final rendering. |
-| ElevenLabs Scribe | Nate's default for speech transcription | Your own key with `speech_to_text` access and available usage. The included helper sends audio to ElevenLabs. |
+| ElevenLabs Scribe | Zander's default for speech transcription | Your own key with `speech_to_text` access and available usage. The included helper sends audio to ElevenLabs. |
 | OpenAI Whisper API | Alternative cloud transcription | Your own OpenAI API key and API billing. Ask the assistant to configure the call and normalize its word timestamps. |
 | Local Whisper or whisper.cpp | Alternative transcription on your computer | Separate runtime and model installation. No cloud transcription key; needs model downloads, disk space, and local compute. |
 | Kie.ai | Optional generated moving B-roll, images, and other supported assets | Your own account, key, and credits. Existing footage and supplied assets can be used instead. |
@@ -84,7 +84,7 @@ Copy either prompt:
 
 ## Kie.ai: generated video and assets
 
-Nate uses [Kie.ai](https://kie.ai/) for generated video and image assets. Set
+Zander uses [Kie.ai](https://kie.ai/) for generated video and image assets. Set
 `KIE_API_KEY` in `.env` if you choose it. Follow the
 [official API guide](https://docs.kie.ai/) for keys, model-specific requests,
 task status, and credits.

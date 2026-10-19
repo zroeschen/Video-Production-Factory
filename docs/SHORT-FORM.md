@@ -22,7 +22,7 @@ outputs inside the new project.
 6. Validate, preview, render a draft, inspect frames, and listen to the full edit.
 7. Resolve timing, audio, and composition problems before exporting the final video.
 
-Nate uses ElevenLabs Scribe for transcription and Kie.ai for generated video and
+Zander uses ElevenLabs Scribe for transcription and Kie.ai for generated video and
 image assets. Students need their own keys and credits for those services. Whisper
 is a transcription alternative, and existing footage can replace generated assets.
 See [tools, accounts, and API keys](TOOLS-AND-API-KEYS.md) for setup and copyable

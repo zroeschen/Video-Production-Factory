@@ -1,46 +1,12 @@
-# Source Build
+# Video Production Factory
 
-Nate Herk's video-editing kit for **Codex and Claude Code**, built on HyperFrames.
-Formerly the HyperFrames Student Kit.
+Zander Roeschen's video-editing kit for **Codex and Claude Code**, built on HyperFrames.
 Bring your own footage. Cut dead air, review mistakes, plan the story, and build
 motion graphics with HyperFrames and GSAP.
 
-## Examples
-
-Four finished videos made with this kit.
-
-### YouTube motion showreel
-
-Made with the `motion-showreel` skill: 15 seconds, 1920x1080, 60fps, cut to a
-129 BPM grid. The red scrubber dot travels through seven craft chapters and
-lands as the play button in the logo.
-
-https://github.com/user-attachments/assets/056b46e9-7379-4e71-b825-20fb9f8e9555
-
-The three short-form videos below were recorded by Nate. The first two were
-edited end to end by an AI agent running the editing skills in this kit, from his
-raw recording: cuts, captions, B-roll, motion graphics, music, and sound effects.
-Press Play on any video to watch it here in the README.
-
-### AI edits everything: the reveal
-
-One take of Nate talking, edited by the agent into a 51-second reel about how it was edited.
-
-https://github.com/user-attachments/assets/6fe4fc3b-c381-45f6-8305-efae2a0b0132
-
-### AI edits everything: raw vs edited
-
-Opens on the untouched raw recording, then hard-cuts to the finished edit and walks through what the agent did.
-
-https://github.com/user-attachments/assets/733bc3f0-432f-41a0-b52d-107cd7f0c806
-
-### AIS Live ad
-
-https://github.com/user-attachments/assets/4ad48761-d14c-407a-9dec-1b76a9afb04a
-
 ## What's included
 
-- **[Editing playbook](docs/EDITING-PLAYBOOK.md):** how Nate's videos get edited with AI, the measured house reel style, the B-roll, caption, and sound rules, and how every note becomes a rule in a skill.
+- **[Editing playbook](docs/EDITING-PLAYBOOK.md):** how videos get edited with AI, the measured house reel style, the B-roll, caption, and sound rules, and how every note becomes a rule in a skill.
 - **15 skills**, mirrored for both assistants, with their helper scripts and references.
 - **406 draft motion-graphics cards** across two styles, with manifests, CSS tokens, and editable slots.
 - **Two scene templates:** dark graph paper and a left glass popout.
@@ -52,7 +18,7 @@ https://github.com/user-attachments/assets/4ad48761-d14c-407a-9dec-1b76a9afb04a
 
 ## Tools and optional services
 
-**Nate uses ElevenLabs Scribe to transcribe and Kie.ai to generate videos and
+**Zander uses ElevenLabs Scribe to transcribe and Kie.ai to generate videos and
 image assets.** Bring your own API keys and credits when using those services.
 You can ask the assistant to use OpenAI Whisper or local Whisper instead, or
 supply an existing word-level transcript. Generated assets are optional.
@@ -68,8 +34,8 @@ Chromium. Make `node`, `ffmpeg`, and `ffprobe` available in your terminal.
 Then run these commands in PowerShell, macOS Terminal, or a Linux shell:
 
 ```sh
-git clone https://github.com/nateherkai/herk-edit-kit.git
-cd herk-edit-kit
+git clone https://github.com/zroeschen/Video-Production-Factory.git
+cd Video-Production-Factory
 npm ci
 npm run setup
 npm test
@@ -140,8 +106,8 @@ measure a music take's beat grid, splice it onto the cut grid, and premix sound 
 
 ## Existing examples and migration
 
-This is the main Herk Edit Kit repository. The newer video-pipeline kit has been
-merged here with both Git histories preserved. The original 12 projects remain
+Video Production Factory started from an open-source editing kit (see
+[LICENSE](LICENSE)), which had already merged a video-pipeline kit into it. The original 12 projects remain
 in `video-projects/`, alongside the original shared brand examples and the
 `make-a-video`, `short-form-video`, and `website-to-hyperframes` skills.
 Use `short-form-edit` for new reels; `short-form-video` documents the older May
@@ -151,7 +117,7 @@ Shorts compositions. [Migration and compatibility notes](docs/MIGRATION.md).
 
 | Resource | Start here |
 | --- | --- |
-| How Nate edits (style, rules, lessons) | [Editing playbook](docs/EDITING-PLAYBOOK.md) |
+| How Zander edits (style, rules, lessons) | [Editing playbook](docs/EDITING-PLAYBOOK.md) |
 | Shared agent instructions | [AGENTS.md](AGENTS.md) |
 | Motion and transition vocabulary | [MOTION_PHILOSOPHY.md](MOTION_PHILOSOPHY.md) |
 | Card library and design tokens | [Library guide](style-library/GUIDE.md) |
@@ -165,8 +131,8 @@ The cards are reusable **draft assets**. Test the cards you choose with your tex
 and footage. Library templates may load GSAP and Google Fonts from their public
 CDNs; localize these dependencies when assembling a final project.
 
-The three showcase videos were explicitly supplied for public sharing. No other
-private recordings, transcripts, credentials, or private workspace settings were
+The example media in `examples/showcase/` and `video-projects/` came with the
+original kit; replace it with your own. No private recordings, transcripts, credentials, or private workspace settings were
 imported. Previously public examples remain in the repository. New folders
 under `video-projects/` and `raw-media/` are ignored automatically; files already
 tracked by Git remain tracked. Create a new project for your own footage.

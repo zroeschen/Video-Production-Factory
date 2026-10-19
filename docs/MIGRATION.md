@@ -1,8 +1,8 @@
-# Consolidated Herk Edit Kit
+# Upstream history
 
-`nateherkai/herk-edit-kit` (formerly `nateherkai/hyperframes-student-kit`) is the canonical repository.
-The reusable kit from `nateherkai/hyperframes-video-pipeline` was merged into it,
-preserving both published histories and the original repository's stars and URL.
+Video Production Factory started as a copy of an open-source editing kit. Before
+the copy, that kit had merged a separate reusable video-pipeline kit into it,
+preserving both published histories. The notes below describe that merge.
 
 ## What was added
 

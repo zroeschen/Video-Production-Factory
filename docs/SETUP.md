@@ -1,6 +1,6 @@
 # Setup and troubleshooting
 
-Start with [tools, accounts, and API keys](TOOLS-AND-API-KEYS.md) for Nate's
+Start with [tools, accounts, and API keys](TOOLS-AND-API-KEYS.md) for Zander's
 ElevenLabs and Kie.ai choices, Whisper alternatives, and optional services.
 
 Use Node 22+ (required by the pinned HyperFrames CLI), FFmpeg with ffprobe, and

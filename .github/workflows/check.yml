@@ -1,4 +1,4 @@
-name: Check Herk Edit Kit
+name: Check Video Production Factory
 on: [push, pull_request]
 permissions:
   contents: read
